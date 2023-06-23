@@ -1,1 +1,6 @@
-print("cristiano siuuuuuuuuuuu.")
+greeting="siuuuuuuuuuuuuuu"
+print(greeting)
+
+msg="Vamousssssss"
+print(msg)
+

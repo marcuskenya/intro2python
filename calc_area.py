@@ -4,7 +4,12 @@ width=int(user_width)
 user_length=input("Enter the length value")
 length=int(user_length)
 
-area= width * length
+user_height=input("Enter the height value")
+height=int (user_height)
+
+volume = length * width * height
 print(width)
 print(length)
-print(area)
+
+print(height)
+print("Volume is",volume)

@@ -1,5 +1,5 @@
 mass= input("Enter your mass in kilos")
-height=input("Enter your height in metres ")
+height=input("Enter your height in metres squared ")
 
 mass= float (mass)
 height = float (height)

@@ -10,5 +10,5 @@ elif value == 4:
     print("You have won a ticket to visit Dubai")
 elif value == 5:
     print("You have won yourself a 10 million dollar mansion")
-else :
+else:
     print("Invalid input")

@@ -1,11 +1,15 @@
-mass= input("Enter your mass in kilos")
-height=input("Enter your height in metres squared ")
+mass = float(input("Enter your mass in kilos"))
+height = float(input("Enter your height in metres squared "))
 
-mass= float (mass)
-height = float (height)
+bmi = mass / height
 
-bmi= mass / height
+if bmi <= 18:
+    print("Underweight")
+elif bmi == 18.1 - 29.0:
+    print("Normal weight")
+elif bmi == 29.1 - 34.0:
+    print("Overweight")
+else:
+    print("Obese")
 
-print(mass)
-print(height)
-print("Your BMI is",bmi,"kg/m2")
+    print("Your BMI is", bmi, "kg/m2")

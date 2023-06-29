@@ -1,13 +1,13 @@
 mass = float(input("Enter your mass in kilos"))
 height = float(input("Enter your height in metres squared "))
 
-bmi = mass / height
+bmi = mass / (height * height)
 
 if bmi <= 18:
     print("Underweight")
-elif bmi == 18.1 - 29.0:
+elif bmi <= 29.0:
     print("Normal weight")
-elif bmi == 29.1 - 34.0:
+elif bmi <= 34.0:
     print("Overweight")
 else:
     print("Obese")

@@ -2,10 +2,6 @@
 # It keeps the order.
 # Can be modified by adding, removing opr updating.
 
-friends = ["Marcus", "Gloria", "Sharon", "Ted", "AnnJoy"]
-
-# friends.append("Clement")
-# friends.append("Maggie")
-# friends.remove("Gloria")
+friends = ["Marcus", "Gloria", "Sharon", "Ted", "AnnJoy", "Clement", "Manu"]
 
 print(friends[1:5])

@@ -2,7 +2,8 @@
 # print all numbers using while loop
 # ensure user inputs number in the terminal
 
-st = int(input("Enter no"))
-while st < 1000:
-    print(st)
-    st += 1
+i = int(input("Enter 1st no"))
+j = (int(input("Enter 2nd no")))
+while i <= j:
+    print(i)
+    i += 1

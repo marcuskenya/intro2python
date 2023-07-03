@@ -4,4 +4,4 @@
 
 friends = ["Marcus", "Gloria", "Sharon", "Ted", "AnnJoy", "Clement", "Manu"]
 
-print(friends[1:5])
+print(friends[1:7])

@@ -1,7 +1,9 @@
-def calculate_months():
-    age = int(input("Enter ur age"))
-    months_lived = age * 12
-    print("U have lived ", months_lived, "months")
+def calculate_grades():
+    marks = int(input("Enter ur marks"))
+    grade_scored = marks * 2
+    print(f"U have scored  {grade_scored} %")
 
 
-calculate_months()
+
+
+calculate_grades()

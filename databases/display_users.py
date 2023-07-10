@@ -1,6 +1,6 @@
-from database import Student
+from database import User
 
-students = Student.select()
+users = User.select()
 # Use for loop 2 display.
-for user in students:
-    print(user.name, user.number, user.age, user.gender, user.studentcode)
+for user in users:
+    print(user.name, user.email, user.password)

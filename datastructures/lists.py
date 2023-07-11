@@ -1,6 +1,6 @@
 # Uses the squared brackets.
 # It keeps the order.
-# Can be modified by adding, removing opr updating.
+# Can be modified by adding, removing or updating.
 
 friends = ["Marcus", "Gloria", "Sharon", "Ted", "AnnJoy", "Clement", "Manu"]
 
